@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "sass": "^1.77.8",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@dotlottie/player-component": "^2.7.12",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@lottiefiles/vue-lottie-player": "^1.1.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "chart.js": "^4.4.3",
+        "lottie-vuejs": "^0.4.0",
+        "lottie-web": "^5.12.2",
+        "owl.carousel": "^2.3.4",
+        "swiper": "^11.1.3",
+        "vue": "^3.4.27",
+        "vue-carousel": "^0.18.0",
+        "vue-chartjs": "^5.3.1",
+        "vue-meta": "^3.0.0-alpha.10",
+        "vue-owl-carousel": "^2.0.3",
+        "vue-router": "^4.3.2",
+        "vue3-carousel": "^0.3.3"
+    }
+}
