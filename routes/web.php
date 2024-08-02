@@ -16,8 +16,13 @@ Route::get('/refund-and-returns-policy', function () {
 Route::get('/terms-and-conditions', function () {
     return Inertia::render('Terms');
 });
+
 Route::get('/enquire-now', function () {
     return Inertia::render('Enquire');
+});
+
+Route::get('/haridwar-tour-packages', function () {
+    return Inertia::render('TourPackages');
 });
 
 
