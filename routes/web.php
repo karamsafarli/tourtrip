@@ -21,7 +21,7 @@ Route::get('/enquire-now', function () {
     return Inertia::render('Enquire');
 });
 
-Route::get('/haridwar-tour-packages', function () {
+Route::get('/tour-packages', function () {
     return Inertia::render('TourPackages');
 });
 
