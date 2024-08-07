@@ -62,6 +62,7 @@ export default {
 header {
     z-index: 10000;
     position: absolute;
+    width: 100%;
 
     nav {
         padding: 12px 5px;

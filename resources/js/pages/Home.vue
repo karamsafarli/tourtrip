@@ -1,12 +1,10 @@
 <template>
 <Header/>
 
+<HomeBanner/>
 
 
-
-
-
-<div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11" bis_skin_checked="1">
+<!-- <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11" bis_skin_checked="1">
     <section class="elementor-section elementor-top-section elementor-element elementor-element-6c927a9d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c927a9d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div class="elementor-background-overlay" bis_skin_checked="1"></div>
         <div class="elementor-container elementor-column-gap-default" bis_skin_checked="1">
@@ -1436,7 +1434,7 @@
             </div>
         </div>
     </section>
-</div>
+</div> -->
 
 <section id="footer-section" data-aos="fadeOut" data-aos-offset="200" data-aos-duration="600">
     <div class="container" bis_skin_checked="1">
@@ -1524,13 +1522,15 @@
 <script>
 import { Link } from '@inertiajs/inertia-vue3';
 import Header from '../components/Header.vue';
+import HomeBanner from '../components/HomeBanner.vue';
 
 
 export default {
 
     components: {
         Link,
-        Header
+        Header,
+        HomeBanner
     },
 }
 </script>
