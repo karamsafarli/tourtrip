@@ -1,84 +1,111 @@
 <template>
-<section id="footer-section" data-aos="fadeOut" data-aos-offset="200" data-aos-duration="600">
-    <div class="container" bis_skin_checked="1">
-        <div class="row" bis_skin_checked="1">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-css-1" bis_skin_checked="1">
-                <div id="block-21" class="widget_block tag-text" bis_skin_checked="1">
-                    <figure class="wp-block-image size-large is-resized" style="margin-left: 0px;"><img loading="lazy" decoding="async" src="https://haridwartourtrip.s3.ap-south-1.amazonaws.com/Haridwar-Logo-WHT-n-YLW-1.png" alt="" class="wp-image-576" width="194" height="60"></figure>
-                </div>
-                <div id="block-9" class="widget_block widget_text tag-text" bis_skin_checked="1">
-                    <p>Need to help for your dream trip? trust us. With HaridwarTourTrip, travel becomes a lot easier with us.</p>
-                </div>
-                <div id="block-25" class="widget_block widget_media_image tag-text" bis_skin_checked="1">
-                    <div class="wp-block-image" bis_skin_checked="1">
-                        <figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="186" src="https://haridwartourtrip.com/wp-content/uploads/combined3-1-1024x186.png" alt="" class="wp-image-1152" style="aspect-ratio:5.505376344086022;width:311px;height:auto" srcset="https://haridwartourtrip.com/wp-content/uploads//combined3-1-1024x186.png 1024w, https://haridwartourtrip.com/wp-content/uploads//combined3-1-300x55.png 300w, https://haridwartourtrip.com/wp-content/uploads//combined3-1-768x140.png 768w, https://haridwartourtrip.com/wp-content/uploads//combined3-1-1536x279.png 1536w, https://haridwartourtrip.com/wp-content/uploads//combined3-1-2048x372.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-css-2" bis_skin_checked="1">
-                <div id="block-10" class="widget_block tag-text" bis_skin_checked="1">
-                    <h2 class="wp-block-heading">Best Packages</h2>
-                </div>
-                <div id="block-11" class="widget_block tag-text" bis_skin_checked="1">
-                    <hr class="wp-block-separator has-alpha-channel-opacity">
-                </div>
-                <div id="nav_menu-3" class="widget_nav_menu tag-text" bis_skin_checked="1">
-                    <div class="menu-packeg-container" bis_skin_checked="1">
-                        <ul id="menu-packeg" class="menu">
-                            <li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><Link href="/2-days-haridwar-tour-packages/">2 Days Haridwar Tour Packages</Link></li>
-                            <li id="menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339"><Link href="/3-days-haridwar-tour-packages/">3 Days Haridwar Tour Packages</Link></li>
-                            <li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><Link href="/4-days-haridwar-tour-packages/">4 Days Haridwar Tour Packages</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-css-3" bis_skin_checked="1">
-                <div id="block-12" class="widget_block tag-text" bis_skin_checked="1">
-                    <h2 class="wp-block-heading">Legal</h2>
-                </div>
-                <div id="block-13" class="widget_block tag-text" bis_skin_checked="1">
-                    <hr class="wp-block-separator has-alpha-channel-opacity">
-                </div>
-                <div id="block-27" class="widget_block widget_text tag-text" bis_skin_checked="1">
-                    <p><Link href="/privacy-policy" data-type="link" data-id="/privacy-policy">Privacy Policy</Link><br><Link href="/terms-and-conditions" data-type="link" data-id="/terms-and-conditions">Terms And Conditions​​</Link>&nbsp;<br><Link href="/refund-and-returns-policy" data-type="link" data-id="/refund-and-returns-policy">Refund and Returns Policy</Link></p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer-css-4" bis_skin_checked="1">
-                <div id="block-14" class="widget_block tag-text" bis_skin_checked="1">
-                    <h2 class="wp-block-heading">Contact Us</h2>
-                </div>
-                <div id="block-15" class="widget_block tag-text" bis_skin_checked="1">
-                    <hr class="wp-block-separator has-alpha-channel-opacity">
-                </div>
-                <div id="block-17" class="widget_block widget_text tag-text" bis_skin_checked="1">
-                    <p><Link href="mailto:haridwar@tourtripx.com" data-type="mailto">haridwar@tourtripx.com</Link><br><strong><strong>For Booking:</strong></strong><br><Link href="tel:+919219963913" data-type="tel" data-id="tel:+919219959121">+91 92199 63913</Link></p>
-                </div>
-                <div id="block-31" class="widget_block tag-text" bis_skin_checked="1">
-                    <div class="shareSocial" bis_skin_checked="1">
-                        <ul class="socialList">
-                            <li><Link href="https://www.facebook.com/TourTripX/"><i class="fa-brands fa-facebook-f"></i></Link></li>
-                            <li><Link href="https://twitter.com/tourtripx"><i class="fa-brands fa-twitter"></i></Link></li>
-                            <li><Link href="https://www.instagram.com/tourtripx/"><i class="fa-brands fa-instagram"></i></Link></li>
-                            <li><Link href="https://in.linkedin.com/company/tourtripx"><i class="fa-brands fa-linkedin"></i></Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<footer>
+    <section id="foot" v-if="isHome">
 
-<section id="copyright-section" data-aos="fadeOut" data-aos-offset="200" data-aos-duration="600">
-    <div class="container" bis_skin_checked="1">
-        <div class="footer-copy-text" bis_skin_checked="1">
-            <ul class="footer-icon">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Book Your Haridwar Pilgrimage Today!</h3>
+            <h4>Delve into the Rich Spiritual Tapestry of Haridwar, Rejuvenate Your Soul, and <br>Create Lifelong
+              Memories on Your Blessed Pilgrimage!</h4>
+            <div class="footer_button">
+                <Link href="/enquire-now">Book your trip</Link>
 
-            </ul>
-            <p> Copyright © 2024 <Link href="https://tourtripx.com/" target="_blank">TourTripX</Link>
-            </p>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+
+
+
+    <section id="inform">
+      <div class="container">
+        <div class="row text">
+          <div class="col-lg-3 col-xl-3  col-md-6 first">
+            <Link href="/">
+              <img class="logo" src="../../assets/images/logo.png" alt="">
+            </Link>
+            <h3>Need to help for your dream trip? trust us. With HaridwarTourTrip, travel becomes a lot easier with us.
+            </h3>
+            <img class="img2" src="../../assets/images/combined3-1-2048x372.png" alt="">
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6  second">
+            <p>Best Packages</p>
+            <div class="line">
+              <div class="subline">
+
+              </div>
+            </div>
+            <div class="links">
+
+              <Link href="/tour-packages">2 Days Haridwar Tour Packages</Link>
+              <Link href="/tour-packages">3 Days Haridwar Tour Packages</Link>
+              <Link href="/tour-packages">4 Days Haridwar Tour Packages</Link>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6 third">
+            <p>Legal</p>
+            <div class="line">
+              <div class="subline">
+
+              </div>
+            </div>
+            <div class="links">
+
+              <Link href="/privacy-policy">Privacy Policy</Link>
+              <Link href="/terms-and-conditions">Terms And Conditions​​</Link>
+              <Link href="/refund-and-returns-policy">Refund and Returns Policy</Link>
+            </div>
+          </div>
+          <div class="col-lg-3 col-xl-3 col-md-6  fourth">
+            <p>Contact Us </p>
+            <div class="line">
+              <div class="subline">
+
+              </div>
+            </div>
+            <div class="links">
+
+              <Link>haridwar@tourtripx.com</Link>
+              <h2>For Booking:</h2>
+              <Link href="#">+91 92199 63913</Link>
+            </div>
+            <div class="icons">
+              <div class="icon">
+                <Link href="#"> <img src="../../assets/images/facebook (3).png" alt=""></Link>
+
+              </div>
+              <div class="icon">
+                <Link href="#"> <img src="../../assets/images/twitter.png" alt=""></Link>
+
+              </div>
+              <div class="icon">
+                <Link href="#"> <img src="../../assets/images/instagram.png" alt=""></Link>
+
+              </div>
+              <div class="icon">
+                <Link href="#"> <img src="../../assets/images/linkedin.png" alt=""></Link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row line">
+          <div class="col-lg-12 first">
+            <div class="line">
+
+            </div>
+
+          </div>
+          <div class="col-lg-12 second">
+            <h3> Copyright © 2024 <span>TourTripX</span> </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
 </template>
 
 
@@ -87,6 +114,9 @@
 import { Link } from '@inertiajs/inertia-vue3';
 
 export default {
+    props: {
+        isHome: Boolean
+    },
     components: {
         Link
     }
@@ -94,105 +124,252 @@ export default {
 </script>
 
 
-<style scoped>
-.shareArticle {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+<style lang="scss" scoped>
+footer {
+  #foot {
+    background-image: url("../../assets/images/Haridwar-Tourtrip-Banner-Booking-Image-scaled.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-}
-
-#footer-section li,
-.latest-post li:last-child {
-    padding-bottom: 0;
-    border: none;
-}
-
-.shareSocial {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-}
-
-@media (max-width: 767px) {
-    .shareSocial {
-        flex-flow: column;
+    .container {
+      .row {
+        .col-lg-12 {
+          padding: 100px 0;
+          @media (max-width: 991px) {
+            padding: 80px 0 50px 0;
+          }
+          @media (max-width: 768px) {
+            padding: 60px 15px 40px;
+          }
+          @media (max-width: 610px) {
+            padding: 50px 15px 30px;
+          }
+          h3 {
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 72px;
+            @media (max-width: 991px) {
+              font-size: 36px;
+              line-height: 52px;
+            }
+            @media (max-width: 520px) {
+              font-size: 26px;
+              line-height: 52px;
+            }
+          }
+          h4 {
+            margin-top: 25px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            @media (max-width: 991px) {
+              font-size: 20px;
+              margin-top: 15px;
+            }
+            @media (max-width: 991px) {
+              font-size: 18px;
+            }
+          }
+          .footer_button {
+            @media (max-width: 768px) {
+              text-align: center;
+            }
+            a {
+              display: inline-block;
+              margin-top: 20px;
+              padding: 16px 40px;
+              background-color: #0d6efd;
+              border-radius: 31px;
+              border: none;
+              color: white;
+              font-weight: 600;
+              font-size: 18px;
+            }
+          }
+        }
+      }
     }
-}
-
-.shareSocial .socialTitle {
-    margin: 0 15px 0 0;
-    font-size: 20px;
-}
-
-@media (max-width: 767px) {
-    .shareSocial .socialTitle {
-        margin-bottom: 15px;
-        text-align: center;
+  }
+  #inform {
+    background-color: #0a1f3e;
+    .container {
+      @media (max-width: 550px) {
+        padding: 0 15px;
+      }
+      .text {
+        display: flex;
+        flex-direction: row;
+        padding: 60px 0;
+        @media (max-width: 991px) {
+          gap: 35px;
+        }
+        .first {
+          .logo {
+            max-width: 196px;
+            height: 60px;
+          }
+          .img2 {
+            
+            height: 57px;
+            margin-top: 17px;
+            @media (max-width:1200px) {
+                margin-top:40px;
+            }
+            @media (max-width:991px) {
+                margin-top: 17px;
+            }
+          }
+          h3 {
+            font-weight: 400;
+            line-height: 25px;
+            max-width: 311px;
+            color: white;
+            font-size: 16px;
+            margin-top: 30px;
+          }
+        }
+        .second {
+          p {
+            font-size: 24px;
+            font-family: sans-serif;
+            color: white;
+            font-weight: 600;
+          }
+          .line {
+            max-width: 311px;
+            .subline {
+              width: 95%;
+              height: 2px;
+              background-color: white;
+              border: 1px solid white;
+            }
+          }
+          .links {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            a {
+              text-decoration: none;
+              color: white;
+              margin-bottom: 7px;
+              font-size: 16px;
+              font-family: sans-serif;
+              cursor: pointer;
+              &:hover {
+                color: #ffce1f;
+              }
+            }
+          }
+        }
+        .third {
+          p {
+            font-size: 24px;
+            font-family: sans-serif;
+            color: white;
+            font-weight: 600;
+          }
+          .line {
+           max-width: 311px;
+            .subline {
+              width: 95%;
+              height: 2px;
+              background-color: white;
+              border: 1px solid white;
+            }
+          }
+          .links {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            a {
+              text-decoration: none;
+              margin-bottom: 7px;
+              font-size: 16px;
+              font-family: sans-serif;
+              cursor: pointer;
+              color: #ffce1f;
+            }
+          }
+        }
+        .fourth {
+          p {
+            font-size: 24px;
+            font-family: sans-serif;
+            color: white;
+            font-weight: 600;
+          }
+          .line {
+           max-width: 311px;
+            .subline {
+              width: 95%;
+              height: 2px;
+              background-color: white;
+              border: 1px solid white;
+            }
+          }
+          .links {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            h2 {
+              font-size: 17px;
+              color: white;
+            }
+            a {
+              text-decoration: none;
+              margin-bottom: 7px;
+              font-size: 16px;
+              font-family: sans-serif;
+              cursor: pointer;
+              color: #ffce1f;
+            }
+          }
+          .icons {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            .icon {
+              a {
+                img {
+                  width: 50px;
+                  height: 50px;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .line {
+        margin-top: 20px;
+        .first {
+          .line {
+            width: 100%;
+            height: 1px;
+            background-color: white;
+          }
+        }
+        .second {
+          margin: 20px 0 15px;
+          text-align: center;
+          h3 {
+            font-size: 17px;
+            color: white;
+            span {
+              color: white;
+              &:hover {
+                color: #ffce1f;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
 
-.shareSocial .socialList {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row wrap;
-}
-
-.shareSocial .socialList li {
-    margin: 5px;
-}
-
-.shareSocial .socialList li:first-child {
-    padding-left: 0;
-}
-
-.shareSocial .socialList li a {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    text-decoration: none;
-    background-color: #999;
-    color: #fff;
-    transition: 0.35s;
-}
-
-.shareSocial .socialList li a i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: top left;
-    transform: scale(1) translate(-50%, -50%);
-    transition: 0.35s;
-}
-
-.shareSocial .socialList li a:hover i {
-    transform: scale(1.5) translate(-50%, -50%);
-}
-
-.shareSocial .socialList li:nth-child(1) a {
-    background-color: #135cb6;
-}
-
-.shareSocial .socialList li:nth-child(2) a {
-    background-color: #00aced;
-}
-
-.shareSocial .socialList li:nth-child(3) a {
-    background-color: #bd081c;
-}
-
-.shareSocial .socialList li:nth-child(4) a {
-    background-color: #111111;
-}
-
-.shareSocial .socialList li:nth-child(5) a {
-    background-color: #1fb381;
-}
 </style>
