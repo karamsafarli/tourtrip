@@ -25,6 +25,10 @@ Route::get('/tour-packages', function () {
     return Inertia::render('TourPackages');
 });
 
+Route::get('/2-days-tour-packages', function () {
+    return Inertia::render('TourPackages2');
+});
+
 
 // ERROR PAGE
 Route::fallback(function () {
