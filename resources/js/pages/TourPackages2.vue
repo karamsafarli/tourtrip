@@ -3,6 +3,82 @@
 <div class="tour_packages_2day_page">
     <Banner hindi="हरिद्वार" title="2 Days Tour Packages" subtitle="Get your 2 Days Haridwar Tour Personalized by our team of tour experts." imgPath="assets/images/banner_bg_1.webp" />
 
+    <section id="package_information">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="img_slider">
+                        <Swiper :navigation="navigationButtons" :modules="modules" :loop="true">
+                            <div class="slider_next_1">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                            <div class="slider_prev_1">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <SwiperSlide>
+                                <div class="slider_img">
+                                    <img src="https://haridwartourtrip.s3.ap-south-1.amazonaws.com/Rectangle-5585.png" alt="">
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="slider_img">
+                                    <img src="https://haridwartourtrip.s3.ap-south-1.amazonaws.com/Rectangle-5585-1.png" alt="">
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="slider_img">
+                                    <img src="https://haridwartourtrip.s3.ap-south-1.amazonaws.com/Rectangle-5585-2.png" alt="">
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+
+                    <div class="best_pkg_slider">
+                        <p>Best Packages</p>
+                        <div class="slider_content">
+                            <Swiper :modules="modules" :navigation="navigationButtons2">
+                                <div class="slider_next_2">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="slider_prev_2">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <SwiperSlide>
+                                    <Link href="/faq">Faq</Link>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <Link href="/blog">Blog</Link>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+                    </div>
+
+                    <div class="overview">
+                        <h5>
+                            Package Overview
+                        </h5>
+
+                        <p>
+                            Discover the mystical allure of Haridwar with our exclusive tour package. Nestled at the foothills of the majestic Himalayas, Haridwar beckons with its profound spiritual significance and breathtaking natural beauty.
+                        </p>
+
+                        <p>
+                            Embark on a journey of self-discovery as you explore the sacred temples and vibrant ghats lining the banks of the revered Ganges River. Witness the mesmerizing Ganga Aarti at Har Ki Pauri, where the evening air is filled with chants and the flicker of countless oil lamps.
+                        </p>
+
+                        <p>
+                            Delve into the ancient lore and spirituality as you visit iconic landmarks like the Mansa Devi Temple, perched atop Bilwa Parvat, and the Chandi Devi Temple, nestled on Neel Parvat. Traverse the winding streets, immersing yourself in the rich tapestry of local culture and traditions.
+                        </p>
+
+                        <p>
+                            Expand your horizons with an excursion to Rishikesh, the tranquil abode of yogis and seekers. Cross the iconic bridges of Lakshman Jhula and Ram Jhula, and delve into the serene ambiance of revered ashrams like Parmarth Niketan and Sivananda Ashram.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="popular_destinations" class="popular_destinations">
         <div class="container">
             <TitleTag title="2 Days Tour for Haridwar" />
@@ -146,78 +222,37 @@
         <div class="container-xxl">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
-                    <VerticalTourCard 
-                        imgPath="assets/images/verticaltour_1.png"
-                        title="Char Dham Yatra Tour Package From Haridwar"
-                        prevPrice="₹ 28,000"
-                        newPrice="₹ 21,999"
-                        :rating="5"
-                    />
+                    <VerticalTourCard imgPath="assets/images/verticaltour_1.png" title="Char Dham Yatra Tour Package From Haridwar" prevPrice="₹ 28,000" newPrice="₹ 21,999" :rating="5" />
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <VerticalTourCard 
-                        imgPath="assets/images/verticaltour_1.png"
-                        title="Char Dham Yatra Tour Package From Haridwar"
-                        prevPrice="₹ 28,000"
-                        newPrice="₹ 21,999"
-                        :rating="4.7"
-                    />
+                    <VerticalTourCard imgPath="assets/images/verticaltour_1.png" title="Char Dham Yatra Tour Package From Haridwar" prevPrice="₹ 28,000" newPrice="₹ 21,999" :rating="4.7" />
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <VerticalTourCard 
-                        imgPath="assets/images/verticaltour_1.png"
-                        title="Char Dham Yatra Tour Package From Haridwar"
-                        prevPrice="₹ 28,000"
-                        newPrice="₹ 21,999"
-                        :rating="4.5"
-                    />
+                    <VerticalTourCard imgPath="assets/images/verticaltour_1.png" title="Char Dham Yatra Tour Package From Haridwar" prevPrice="₹ 28,000" newPrice="₹ 21,999" :rating="4.5" />
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <VerticalTourCard 
-                        imgPath="assets/images/verticaltour_1.png"
-                        title="Char Dham Yatra Tour Package From Haridwar"
-                        prevPrice="₹ 28,000"
-                        newPrice="₹ 21,999"
-                        :rating="4"
-                    />
+                    <VerticalTourCard imgPath="assets/images/verticaltour_1.png" title="Char Dham Yatra Tour Package From Haridwar" prevPrice="₹ 28,000" newPrice="₹ 21,999" :rating="4" />
                 </div>
             </div>
         </div>
     </section>
 
-
     <section id="reviews">
-<div class="container">
+        <div class="container">
 
-    <h1>Our Reviews</h1>
-    <p>As your click-through-rate rises, your website's time-on-site will likely increase as well. <br>
-This is how long your website visitors are staying. Book Your Goa Tour Packages With Us Now!</p>
+            <h1>Our Reviews</h1>
+            <p>As your click-through-rate rises, your website's time-on-site will likely increase as well. <br>
+                This is how long your website visitors are staying. Book Your Goa Tour Packages With Us Now!</p>
 
-    <ReviewItem 
-        author="Somnath Das"
-        review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team."
-        profileImg="assets/images/pp.png"
-        :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]"
-    />
-    <ReviewItem 
-        author="Somnath Das"
-        review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team."
-        profileImg="assets/images/pp.png"
-        :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]"
-    />
-    <ReviewItem 
-        author="Somnath Das"
-        review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team."
-        profileImg="assets/images/pp.png"
-        :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]"
-    />
-    
+            <ReviewItem author="Somnath Das" review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team." profileImg="assets/images/pp.png" :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]" />
+            <ReviewItem author="Somnath Das" review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team." profileImg="assets/images/pp.png" :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]" />
+            <ReviewItem author="Somnath Das" review="I booked a cab for 2 dham. The service was amazing. The process of booking was hassle free. The driver was allocated well in time. The team addressed all my queries patiently. Thanks to the team." profileImg="assets/images/pp.png" :sliderImgs="['assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg', 'assets/images/review_slide_1.jpg', 'assets/images/review_slide_2.jpg','assets/images/review_slide_3.jpg','assets/images/review_slide_4.jpg','assets/images/review_slide_5.jpg',]" />
 
-</div>
-</section>
+        </div>
+    </section>
 </div>
 
-<Footer :isHome="true"/>
+<Footer :isHome="true" />
 </template>
 
 <script>
@@ -229,6 +264,19 @@ import BookNow from '../components/BookNow.vue';
 import TourCard from '../components/TourCard.vue';
 import ReviewItem from '../components/ReviewItem.vue';
 import VerticalTourCard from '../components/VerticalTourCard.vue';
+import {
+    Swiper,
+    SwiperSlide
+} from 'swiper/vue';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import {
+    Navigation
+} from 'swiper/modules';
+import {
+    Link
+} from '@inertiajs/inertia-vue3';
+
 export default {
     components: {
         Banner,
@@ -238,7 +286,23 @@ export default {
         BookNow,
         TourCard,
         ReviewItem,
-        VerticalTourCard
+        VerticalTourCard,
+        Swiper,
+        SwiperSlide,
+        Link
+    },
+    setup() {
+        return {
+            modules: [Navigation],
+            navigationButtons: {
+                nextEl: '.slider_next_1',
+                prevEl: '.slider_prev_1',
+            },
+            navigationButtons2: {
+                nextEl: '.slider_next_2',
+                prevEl: '.slider_prev_2',
+            },
+        }
     }
 }
 </script>
@@ -269,6 +333,134 @@ p {
     }
 }
 
+#package_information {
+    padding: 70px 0;
+
+    .img_slider {
+        position: relative;
+        margin-bottom: 30px;
+
+        .slider_next_1,
+        .slider_prev_1 {
+            position: absolute;
+            top: 50%;
+            transform: tarnslateY(-50%);
+            z-index: 100;
+            cursor: pointer;
+
+            i {
+                color: hsl(0deg 0% 93.3% / 90%);
+                font-size: 25px;
+            }
+        }
+
+        .slider_prev_1 {
+            left: 15px
+        }
+
+        .slider_next_1 {
+            right: 15px
+        }
+
+        .slider_img {
+            height: 550px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .best_pkg_slider {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        border: 1px solid #0D6EFD;
+        position: relative;
+
+        .slider_prev_2,
+        .slider_next_2 {
+            position: absolute;
+            cursor: pointer;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+
+            i {
+                color: #000;
+                font-size: 18px;
+            }
+        }
+
+        .slider_prev_2 {
+            right: 25px;
+        }
+
+        .slider_next_2 {
+            right: 0;
+        }
+
+        p {
+            color: #fff;
+            font-weight: 600;
+            line-height: 48px;
+            margin: 0;
+            padding: 0 10px;
+            background-color: #0D6EFD;
+            font-size: 16px;
+        }
+
+        .swiper {
+            height: 100% !important;
+        }
+
+        .slider_content {
+            flex: 1;
+            padding: 0 15px;
+            height: 100%;
+
+            .swiper-slide {
+                width: 100% !important;
+                height: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                a {
+                    color: #222222;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .overview {
+        padding: 25px;
+        border-radius: 10px;
+        border: 1px solid #D6D6D6;
+        margin: 30px 0;
+
+        h5 {
+            color: #0D6EFD;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #6f6f6f;
+            font-size: 16px;
+            margin-bottom: 16px;
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+}
 
 .vertical_tour_cards {
     padding: 40px 0 70px 0;
