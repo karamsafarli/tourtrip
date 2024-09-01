@@ -1,7 +1,7 @@
 <template>
 <Header />
-<div class="tour_packages_2day_page">
-    <Banner hindi="हरिद्वार" title="2 Days Tour Packages" subtitle="Get your 2 Days Haridwar Tour Personalized by our team of tour experts." imgPath="assets/images/banner_bg_1.webp" />
+<div class="tour_packages_2day_page chardham_package_page">
+    <Banner imgPath="assets/images/chardham_bg.webp" />
 
     <section id="package_information">
         <div class="container-xxl">
@@ -154,63 +154,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="images_slider">
-        <div class="container-xxl">
-            <Swiper 
-            :modules="modules"
-            :navigation="navigationButtons3"
-                :breakpoints="{
-    1300: {
-                        slidesPerView: 5
-                    },
-    991: {
-                        slidesPerView: 4
-                    },
-    768: {
-                        slidesPerView: 3
-                    },
-    100: {
-                        slidesPerView: 2
-                    },
-                }"
-            >
-
-                <div class="slider_next_3">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                            <div class="slider_prev_3">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </div>
-                <SwiperSlide>
-                    <div class="img_cont">
-                        <img src="../../assets/images/slider_1.webp" alt="">
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div class="img_cont">
-                        <img src="../../assets/images/slider_2.webp" alt="">
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div class="img_cont">
-                        <img src="../../assets/images/slider_3.webp" alt="">
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div class="img_cont">
-                        <img src="../../assets/images/slider_1.webp" alt="">
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div class="img_cont">
-                        <img src="../../assets/images/slider_2.webp" alt="">
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-        </div>
-    </section>
+    </section>  
 
     <section id="inc_exc">
         <div class="container-xxl">
@@ -254,273 +198,151 @@
         </div>
     </section>
 
-
-    <section id="itinerary_details">
+    <section id="tour_info_acc">
         <div class="container-xxl">
-            <h2>Itinerary Details</h2>
-
-            <div class="itinerary_tabs">
-                <div class="tab_wrapper">
-                    <div :class="activeTab === 0 ? 'tab active' : 'tab'"
-                     @click="setActiveTab(0)"
-                     >
-                            <i class="fa-regular fa-calendar"></i>
-                            <span>Day 1: Local Sightseeing</span>
-                    </div>
-                    <div :class="activeTab === 1 ? 'tab active' : 'tab'" @click="setActiveTab(1)">
-                            <i class="fa-regular fa-calendar"></i>
-                            <span>Day 2: Rishikesh</span>
-                    </div>
-                    <div :class="activeTab === 2 ? 'tab active' : 'tab'" @click="setActiveTab(2)">
-                            <i class="fa-solid fa-car"></i>
-                            <span>Cab Schedule</span>
-                    </div>
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <FaqItem 
+                        :isOrange="true"
+                        question="Day 1: Arrive Delhi to Haridwar & Darshan"
+                    >   
+                        <ul>
+                            <li>Pickup from Haridwar, Check into the Hotel, and ready to darshan.</li>
+                            <li>Visit the Mansa Devi Temple, located atop the Bilwa Parvat Hill. You can reach the temple by either trekking or taking a cable car ride.</li>
+                            <li>Explore Chandi Devi Temple, situated on the Neel Parvat hill. Similar to Mansa Devi Temple, you can choose to trek or take a cable car to reach the temple.</li>
+                            <li>In the afternoon, visit Har Ki Pauri, one of the most sacred ghats in Haridwar.</li>
+                            <li>Spent the night at Haridwar.</li>
+                        </ul>
+                    </FaqItem>
+                    <FaqItem 
+                        :isOrange="true"
+                        question="Day 1: Arrive Delhi to Haridwar & Darshan"
+                    >   
+                        <ul>
+                            <li>Pickup from Haridwar, Check into the Hotel, and ready to darshan.</li>
+                            <li>Visit the Mansa Devi Temple, located atop the Bilwa Parvat Hill. You can reach the temple by either trekking or taking a cable car ride.</li>
+                            <li>Explore Chandi Devi Temple, situated on the Neel Parvat hill. Similar to Mansa Devi Temple, you can choose to trek or take a cable car to reach the temple.</li>
+                            <li>In the afternoon, visit Har Ki Pauri, one of the most sacred ghats in Haridwar.</li>
+                            <li>Spent the night at Haridwar.</li>
+                        </ul>
+                    </FaqItem>
+                    <FaqItem 
+                        :isOrange="true"
+                        question="Day 1: Arrive Delhi to Haridwar & Darshan"
+                    >   
+                        <ul>
+                            <li>Pickup from Haridwar, Check into the Hotel, and ready to darshan.</li>
+                            <li>Visit the Mansa Devi Temple, located atop the Bilwa Parvat Hill. You can reach the temple by either trekking or taking a cable car ride.</li>
+                            <li>Explore Chandi Devi Temple, situated on the Neel Parvat hill. Similar to Mansa Devi Temple, you can choose to trek or take a cable car to reach the temple.</li>
+                            <li>In the afternoon, visit Har Ki Pauri, one of the most sacred ghats in Haridwar.</li>
+                            <li>Spent the night at Haridwar.</li>
+                        </ul>
+                    </FaqItem>
+                    <FaqItem 
+                        :isOrange="true"
+                        question="Day 1: Arrive Delhi to Haridwar & Darshan"
+                    >   
+                        <ul>
+                            <li>Pickup from Haridwar, Check into the Hotel, and ready to darshan.</li>
+                            <li>Visit the Mansa Devi Temple, located atop the Bilwa Parvat Hill. You can reach the temple by either trekking or taking a cable car ride.</li>
+                            <li>Explore Chandi Devi Temple, situated on the Neel Parvat hill. Similar to Mansa Devi Temple, you can choose to trek or take a cable car to reach the temple.</li>
+                            <li>In the afternoon, visit Har Ki Pauri, one of the most sacred ghats in Haridwar.</li>
+                            <li>Spent the night at Haridwar.</li>
+                        </ul>
+                    </FaqItem>
+                    <FaqItem 
+                        :isOrange="true"
+                        question="Day 1: Arrive Delhi to Haridwar & Darshan"
+                    >   
+                        <ul>
+                            <li>Pickup from Haridwar, Check into the Hotel, and ready to darshan.</li>
+                            <li>Visit the Mansa Devi Temple, located atop the Bilwa Parvat Hill. You can reach the temple by either trekking or taking a cable car ride.</li>
+                            <li>Explore Chandi Devi Temple, situated on the Neel Parvat hill. Similar to Mansa Devi Temple, you can choose to trek or take a cable car to reach the temple.</li>
+                            <li>In the afternoon, visit Har Ki Pauri, one of the most sacred ghats in Haridwar.</li>
+                            <li>Spent the night at Haridwar.</li>
+                        </ul>
+                    </FaqItem>
                 </div>
 
-                <div class="tab_details" v-if="activeTab === 0">
-                    <div class="detail_container">
-                       <div class="timeline">
-                         <h5 class="timeline_heading">
-                            Location 1: Daksh Mahadev Temple
-                        </h5>
-                        <p>
-                            <b>Daksheswar Mahadev</b> ( दक्षेश्‍वर महादेव मन्दिर) or Daksha Mahadev temple is a Hindu temple dedicated to Lord Shiva, located in the town of Kankhal, about 4 km from Haridwar, Uttarakhand, India. It is named after King Daksha Prajapati, the father of Sati. Daksha is one of the fourteen Prajapatis, creator deities, who preside over procreation and are the protector of life in Hindu mythology.
-                        </p>
-                       </div>
-
-                        <div class="timeline">
-                            <h5 class="timeline_heading">Location 2: Har Ki Pauri</h5>
-                        <p>
-                            Har Ki Pauri is a major landmark place and a famous ghat on the banks of river Ganga in Haridwar. A center place of attraction among devotees in Haridwar, Har ki Pauri is believed to be the place of exit of holy river Ganga from the mountains. 
-                        </p>
-                        <p>
-                            World famous Ganga Aarti takes place in Brahmakund area of Har ki Pauri, a sacred spot where it is believed that the nectar (Amrit) fell on earth. Largest fairs of Hindu’s, Kumbh and Ardh Kumbh also takes place at Har ki Pauri.
-                        </p>
-                        </div>
-
-                        <div class="timeline">
-                            <h5 class="timeline_heading">
-                                Location 3: Ganga Aarti
-                            </h5>
-                            <p>
-                                Ganga Aarti is a religious prayer that takes place at the bank of the sacred river Ganga at the Har Ki Pauri ghat in Haridwar. Bringing in tourists and devotees from all over the world, it is a ritual of light and sound where the priests perform prayers with bowls of fire and the ringing of the temple bells. Visitors float “diyas” (small candles) and flowers, surrounded by the chanting of the mantras and the reflection of the lights off the surface of the flowing river, which is said to be blessed by the Goddess Ganga.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-lg-5">
+                     <FaqItem 
+                        :isOrange="true"
+                        question="Cancellation and Refund Policy"
+                        answer="In the event of cancellation, please notify us as soon as possible. Cancellation policies may vary depending on the specific tour package and service providers involved."
+                    />   
+                     <FaqItem 
+                        :isOrange="true"
+                        question="Cancellation and Refund Policy"
+                        answer="In the event of cancellation, please notify us as soon as possible. Cancellation policies may vary depending on the specific tour package and service providers involved."
+                    />   
+                     <FaqItem 
+                        :isOrange="true"
+                        question="Cancellation and Refund Policy"
+                        answer="In the event of cancellation, please notify us as soon as possible. Cancellation policies may vary depending on the specific tour package and service providers involved."
+                    />   
+                     <FaqItem 
+                        :isOrange="true"
+                        question="Cancellation and Refund Policy"
+                        answer="In the event of cancellation, please notify us as soon as possible. Cancellation policies may vary depending on the specific tour package and service providers involved."
+                    />   
+                     <FaqItem 
+                        :isOrange="true"
+                        question="Cancellation and Refund Policy"
+                        answer="In the event of cancellation, please notify us as soon as possible. Cancellation policies may vary depending on the specific tour package and service providers involved."
+                    />   
+                    
                 </div>
-                <div class="tab_details" v-if="activeTab === 1">
-                    <div class="detail_container">
-                       <div class="timeline">
-                         <h5 class="timeline_heading">
-                            Location 1: Vaishno Devi Temple
-                        </h5>
-                        <p>
-                            A replica of the Vaishno Devi temple in Kashmir, the Vaishno Devi Temple of Haridwar is marked by tunnels and caves that lead to the inner sanctum containing the shrine of Goddess Vaishno Devi. The divine temple houses three deities – Lakshmi, Kaali and Saraswati. The Vaishno Devi Temple in Haridwar is a frequently visited site, both by religious devotees and nature lovers because of the stunning view of the surrounding landscape.
-                        </p>
-                        <p>
-                            Apart from its architecture and tunnels, this temple bears no resemblance to the original Vaishno Devi Temple. After climbing a flight of steep stairs and crawling through a narrow tunnel, the devotees are blessed with the sight of the idol of Maa Vaishno Devi and the replicas of the 12 Jyotirlingas in India. It is widely believed that the Vaishno Devi Temple of Haridwar was constructed in the memory of Trikuta, a devotee of Lord Ram. She prayed to him so devotedly that he agreed to marry her in his last earthy carnation. This is also one of the Shakti Peethas temple.
-                        </p>
-                       </div>
 
-                        <div class="timeline">
-                            <h5 class="timeline_heading">Location 2: Lakshman Jhula</h5>
-                        <p>
-                           The Lakshman Jhula is a famous hanging bridge across the river Ganga that connects two villages, Tapovan in the Tehri Garhwal district and Jonk in the Pauri Garhwal district. Located in the town Rishikesh in the Indian state of Uttarakhand, the entire bridge is made up of iron, is 450 feet long and is situated at the height of 70 feet from the river. Sadly, it has been closed permanently owing to the risk to the safety and security. A new glass bridge is set to come up adjacent to Lakshman Jhula. However, it is still used by pedestrians but bikes are strictly not allowed.
-                        </p>
-                        <p>
-                            The Lakshman Jhula is well-known amongst tourists because it is believed that Lord Lakshman, the younger brother of Lord Rama, had crossed the river Ganga at this same site.
-                        </p>
-                        </div>
-
-                        <div class="timeline">
-                            <h5 class="timeline_heading">
-                                Location 3: Ram Jhula
-                            </h5>
-                            <p>
-                               Ram Jhula is one of the most iconic places in Rishikesh and if you are planning a pilgrimage to the city, or just visiting for a holiday, you must stop by this iconic bridge. It is a suspension bridge, built entirely out of iron and the length of the bridge is around 450 feet. It was constructed in the year 1986, by the PWD.
-                            </p>
-                            <p>
-                                The bridge is located over the holy Ganga river and it connects Sivananda Nagar in Muni Ki Reti, in the district of Tehri Garhwal in the west to Swargashram in the district of Pauri Garhwal, in the east.
-                            </p>
-                            <p>
-                                People can also traverse the bridge with bikes or cycles. A number of holy ashrams and Hindu religious centres and temples can be found lining the side of the bridge. These ashrams encompass the true essence of Rishikesh, with their peace, hospitality and piety.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab_details" v-if="activeTab === 2">
-                    <div class="detail_container">
-                       <div class="timeline">
-                         <h5 class="timeline_heading">
-                            Arrival In Haridwar
-                        </h5>
-                        <p>
-                            Welcome to the vibrant city of Haridwa, where a warm reception awaits you amidst the bustling streets, grand monuments, and a rich tapestry of diverse cultures, marking the beginning of an extraordinary travel experience.
-                        </p>
-                      
-                       </div>
-
-                        <div class="timeline">
-                            <h5 class="timeline_heading">Haridwar – Rishikesh</h5>
-                        <p>
-                           Haridwar is an ancient city and important Hindu pilgrimage site in North India’s Uttarakhand state, where the River Ganges exits the Himalayan foothills. The largest of several sacred ghats (bathing steps), Har Ki Pauri hosts a nightly Ganga Aarti (river-worshipping ceremony) in which tiny flickering lamps are floated off the steps.
-                        </p>
-                       
-                        </div>
-
-                        <div class="timeline">
-                            <h5 class="timeline_heading">
-                               Drop at Haridwar
-                            </h5>
-                            <p>
-                               As we bid you farewell in Delhi, we hope your soul has been nourished by the profound experiences and cultural immersion, and that the memories created during this transformative journey will stay with you forever, reminding you of the profound beauty and spirituality of India.
-                            </p>
-                           
-                        </div>
-                    </div>
+                <div class="enquire_btn">
+                    <Link href="/enquire-now">Enquire Now</Link>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
 
-    <section id="popular_destinations" class="popular_destinations">
-        <div class="container">
-            <TitleTag title="2 Days Tour for Haridwar" />
-            <h1>Popular Destinations Covered</h1>
 
-        </div>
-
-        <div class="container">
-            <div class="row popular_cards">
-                <div class="col-lg-4 first">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Har ki Pauri</h2>
-                            <h3>Ganga Arti
-                            </h3>
-                            <h4>Visit Har Ki Pauri, one of the holiest ghats, and witness the mesmerizing Ganga Aarti ceremony.
-                            </h4>
-                        </div>
+    <section id="expandables">
+        <div class="container-xxl">
+            <div class="image_container">
+                <div class="animated_img">
+                    <img src="../../assets/images/animated_img1.webp" alt="">
+                    <div class="overlay">
+                        <h5>Yamunotri</h5>
+                        <p>Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 second">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Neel Parvat
-                            </h2>
-                            <h3>Chandi Devi Temple
-
-                            </h3>
-                            <h4>The temple attracts a large number of devotees and tourists throughout the year, especially during
-                                festivals like Navratri.
-                            </h4>
-                        </div>
+                <div class="animated_img">
+                    <img src="../../assets/images/animated_img2.webp" alt="">
+                    <div class="overlay">
+                        <h5>Yamunotri</h5>
+                        <p>Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 third">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Kankhal</h2>
-                            <h3>Daksheswar Mahadev Temple
-
-                            </h3>
-                            <h4>Devotees believe that visiting the Daksheshwar Mahadev Temple and seeking the blessings of Lord Shiva
-                                can bring them peace, prosperity, and fulfillment of their wishes.
-                            </h4>
-                        </div>
+                <div class="animated_img">
+                    <img src="../../assets/images/animated_img3.jpeg" alt="">
+                    <div class="overlay">
+                        <h5>Yamunotri</h5>
+                        <p>Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath.</p>
                     </div>
                 </div>
-            </div>
-            <div class="row popular_cards">
-                <div class="col-lg-4 first">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Har ki Pauri</h2>
-                            <h3>Ganga Arti
-                            </h3>
-                            <h4>Visit Har Ki Pauri, one of the holiest ghats, and witness the mesmerizing Ganga Aarti ceremony.
-                            </h4>
-                        </div>
+                <div class="animated_img">
+                    <img src="../../assets/images/animated_img4.jpg" alt="">
+                    <div class="overlay">
+                        <h5>Yamunotri</h5>
+                        <p>Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 second">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Neel Parvat
-                            </h2>
-                            <h3>Chandi Devi Temple
-
-                            </h3>
-                            <h4>The temple attracts a large number of devotees and tourists throughout the year, especially during
-                                festivals like Navratri.
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 third">
-                    <div class="card">
-
-                        <div class="data">
-                            <div class="stars">
-                                ★★★★★
-                            </div>
-
-                            <h2>Kankhal</h2>
-                            <h3>Daksheswar Mahadev Temple
-
-                            </h3>
-                            <h4>Devotees believe that visiting the Daksheshwar Mahadev Temple and seeking the blessings of Lord Shiva
-                                can bring them peace, prosperity, and fulfillment of their wishes.
-                            </h4>
-                        </div>
+                <div class="animated_img">
+                    <img src="../../assets/images/animated_img5.jpeg" alt="">
+                    <div class="overlay">
+                        <h5>Yamunotri</h5>
+                        <p>Yamunotri is a part of Char Dham (along with Gangotri, Kedarnath and Badrinath), the four most revered Hindu pilgrimages in the Himalayas. The small mountain hamlet, with the Yamunotri Temple at its centre, attracts thousands of devotees every year and is the commencing point of the Char Dham Yatra pilgrimage (May to October), which proceeds from Yamunotri to Gangotri and finally to Kedarnath and Badrinath.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <BookNow />
-
-    <section class="popular_tour_packages">
-        <div class="container">
-
-            <TitleTag title="Pilgrimages" />
-
-            <h1>Special Package Offers</h1>
-            <p>
-                Unveiling the Charms of Uttarakhand's Sacred Hub and Its Popular Attractions
-                That Leave Travelers Mesmerized.
-            </p>
-
-            <TourCard imgPath="assets/images/tourcard_1.webp" duration="11 Nights & 12 Days" title="Chardham Yatra Package From Delhi" description="This Yatra or pilgrimage is a tour of four holy sites - Yamunotri, Gangotri, Kedarnath and Badrinath – nestled high up in the Himalayas. In Hindi, 'char' means four and 'dham' refers to religious destinations." prevPrice="37,000" saledPrice="26,999" />
-            <TourCard imgPath="assets/images/tourcard_1.webp" duration="11 Nights & 12 Days" title="Chardham Yatra Package From Delhi" description="This Yatra or pilgrimage is a tour of four holy sites - Yamunotri, Gangotri, Kedarnath and Badrinath – nestled high up in the Himalayas. In Hindi, 'char' means four and 'dham' refers to religious destinations." prevPrice="37,000" saledPrice="26,999" />
-        </div>
-    </section>
 
     <section class="vertical_tour_cards">
         <div class="container-xxl">
@@ -541,10 +363,50 @@
         </div>
     </section>
 
+
+    <section id="faqs">
+        <div class="container-xxl">
+            <h1>Frequently Asked Questions</h1>
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+            <FaqItem 
+                question="Q. How to plan Char Dham yatra from Haridwar?"
+                answer="Planning a Char Dham Yatra from Haridwar involves selecting the right time is April-October, by choosing tour packages offered by TourTripX, booking accommodations and transportation, obtaining necessary permits, packing essentials, planning an itinerary with darshan time and rest days, staying informed about weather and road conditions, respecting local customs, and embracing the spiritual journey."
+            />
+        </div>
+    </section>
+
+
     <section id="reviews">
         <div class="container">
 
-            <h1>Our Reviews</h1>
+            <h1>Customer Feedback: A Glimpse into Our Reviews</h1>
             <p>As your click-through-rate rises, your website's time-on-site will likely increase as well. <br>
                 This is how long your website visitors are staying. Book Your Goa Tour Packages With Us Now!</p>
 
@@ -580,6 +442,7 @@ import {
 import {
     Link
 } from '@inertiajs/inertia-vue3';
+import FaqItem from '../components/FaqItem.vue';
 
 export default {
     components: {
@@ -593,7 +456,8 @@ export default {
         VerticalTourCard,
         Swiper,
         SwiperSlide,
-        Link
+        Link,
+        FaqItem
     },
     data() {
         return {
@@ -634,7 +498,7 @@ h1 {
     margin-bottom: 30px;
 
     @media (max-width: 768px) {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 
@@ -647,7 +511,7 @@ p {
     margin: 0 auto 30px auto;
 
     @media (max-width: 768px) {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -698,7 +562,7 @@ p {
         display: flex;
         align-items: center;
         height: 48px;
-        border: 1px solid #0D6EFD;
+        border: 1px solid #FB4D00;
         position: relative;
 
         .slider_prev_2,
@@ -729,7 +593,7 @@ p {
             line-height: 48px;
             margin: 0;
             padding: 0 10px;
-            background-color: #0D6EFD;
+            background-color: #FB4D00;
             font-size: 16px;
         }
 
@@ -765,7 +629,7 @@ p {
         margin: 30px 0;
 
         h5 {
-            color: #0D6EFD;
+            color: #FB4D00;
             font-size: 24px;
             margin-bottom: 30px;
         }
@@ -824,7 +688,7 @@ p {
             padding: 12px 0;
             text-align: center;
             border-radius: 6px;
-            background-color: #0D6EFD;
+            background-color: #FB4D00;
             color: #fff;
             font-size: 16px;
             font-weight: 600;
@@ -984,7 +848,7 @@ p {
 }
 
 #inc_exc {
-    padding: 40px 0;
+    // padding: 0 0 20px 0;
     .inclusions,.exclusions {
         padding: 40px 30px;
         border: 1px solid #D6D6D6;
@@ -1036,6 +900,148 @@ p {
          .mark {
             background-color: #E02828;
         }
+    }
+}
+
+#tour_info_acc {
+    padding: 40px 0;
+    color: #6f6f6f;
+    font-size: 16px;
+
+    ul {
+        li {
+            padding: 6px 0;
+        }
+    }
+
+    .enquire_btn {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        a {
+            background-color: #FB4D00;
+            color: #fff;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 600;
+
+            @media (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#expandables {
+    padding: 40px 0;
+    .image_container {
+        display: flex;
+
+        @keyframes animateh5 {
+            from {
+                opacity: 0;
+                transform: translateY(-400%)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+        @keyframes animatep {
+            from {
+                opacity: 0;
+                transform: translateY(400%)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        .animated_img {
+    flex: 1;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+
+    &:hover {
+        flex: 3;
+
+        @media (max-width: 768px) {
+            flex: 4;
+        }
+
+        .overlay {
+            animation: opacity .4s ease .3s forwards;
+
+            h5 {
+                animation: animateh5 .4s ease .3s forwards; 
+            }
+
+            p {
+                animation: animatep .4s ease .3s forwards; 
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @keyframes opacity {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background-color: #0000007a;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        transition: .5s ease-in-out;
+        opacity: 0;
+
+        h5 {
+            font-size: 24px;
+            color: #fff;   
+            margin: 0;
+            @media (max-width: 768px) {
+            font-size: 14px;
+        }
+        }
+
+        p {
+            color: #fff;
+            font-size: 16px;
+            margin: 0;
+
+             @media (max-width: 768px) {
+            font-size: 10px;
+        }
+        }
+    }
+}
+
     }
 }
 
@@ -1118,6 +1124,11 @@ p {
 
 .vertical_tour_cards {
     padding: 40px 0 70px 0;
+}
+
+#faqs {
+    padding: 40px 0;
+
 }
 
 #popular_destinations {

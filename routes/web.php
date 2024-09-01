@@ -28,6 +28,16 @@ Route::get('/tour-packages', function () {
 Route::get('/2-days-tour-packages', function () {
     return Inertia::render('TourPackages2');
 });
+Route::get('/3-days-tour-packages', function () {
+    return Inertia::render('TourPackages3');
+});
+Route::get('/4-days-tour-packages', function () {
+    return Inertia::render('TourPackages4');
+});
+
+Route::get('/chardham-yatra-package-from-delhi', function () {
+    return Inertia::render('ChardhamPackage');
+});
 
 
 // ERROR PAGE

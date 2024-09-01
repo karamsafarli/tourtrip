@@ -34,6 +34,11 @@ export default {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+        min-height: 400px;
+
+        @media (max-width: 768px) {
+            min-height: 300px;
+        }
         
         h5 {
             font-size: 18px;

@@ -1,7 +1,7 @@
 <template>
 <Header />
 <div class="tour_packages_2day_page">
-    <Banner hindi="हरिद्वार" title="2 Days Tour Packages" subtitle="Get your 2 Days Haridwar Tour Personalized by our team of tour experts." imgPath="assets/images/banner_bg_1.webp" />
+    <Banner hindi="हरिद्वार" title="3 Days Tour Packages" subtitle="Get your 3 Days Haridwar Tour Packages Personalized by our team of tour experts." imgPath="assets/images/3days_banner_bg.png" />
 
     <section id="package_information">
         <div class="container-xxl">
