@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EnquiryController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -38,6 +39,14 @@ Route::get('/4-days-tour-packages', function () {
 Route::get('/chardham-yatra-package-from-delhi', function () {
     return Inertia::render('ChardhamPackage');
 });
+
+
+
+
+// API ROUTES
+Route::post('/enquire', [EnquiryController::class, 'store'])->name('enquire.store');
+
+
 
 
 // ERROR PAGE
